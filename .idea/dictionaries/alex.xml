@@ -6,6 +6,7 @@
       <w>defroutes</w>
       <w>gittp</w>
       <w>lein</w>
+      <w>leiningen</w>
     </words>
   </dictionary>
 </component>
