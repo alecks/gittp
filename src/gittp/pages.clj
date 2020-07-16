@@ -1,7 +1,7 @@
 (ns gittp.pages
   (:require [hiccup.core :refer :all]))
 
-(def site-title "gittp")
+(def ^:const site-title "gittp")
 
 (defn- full-title [title]
   (str title " — " site-title))
