@@ -15,10 +15,10 @@
       content]]))
 
 (defn home []
-    (html-wrapper
-      "home"
-      [:h1 site-title]
-      [:p "TODO"]))                                        ; TODO(fjah): add content
+  (html-wrapper
+    "home"
+    [:h1 site-title]
+    [:p "TODO"]))                                           ; TODO(fjah): add content
 
 (defn not-found []
   (let [title "not found"]
