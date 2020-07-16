@@ -6,7 +6,7 @@
                  [compojure "1.6.1"]
                  [ring/ring-defaults "0.3.2"]
                  [hiccup "1.0.5"]
-                 [clj-jgit "1.0.0-beta3"]]
+                 [clj-jgit "1.0.0-beta3"]]                  ; FIXME(fjah): fix issues with slf4j StaticLoggerBinder
   :plugins [[lein-ring "0.12.5"]]
   :ring {:handler gittp.handler/app}
   :profiles
